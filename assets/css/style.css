@@ -4,10 +4,17 @@ header div {
     justify-content: center;
     align-items: center;
     background-image: url(../img/wall.png);
+    background-size: contain;
 }
 
 header div h1 {
     font-family: "Edu TAS Beginner", sans-serif;
     font-weight: bold;
     font-size: 80px;
+}
+
+main {
+    background-image: url(../img/cork.png);
+    background-size: contain;
+    height: 85vh;
 }
