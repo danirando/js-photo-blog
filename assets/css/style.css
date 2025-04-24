@@ -16,5 +16,40 @@ header div h1 {
 main {
     background-image: url(../img/cork.png);
     background-size: contain;
-    height: 85vh;
+    height: 100%;
+
+}
+
+main .container .row .col-sl-12 {
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px;
+}
+
+main .container .row .col-sl-12 div {
+    width: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+}
+
+main .container .row .col-sl-12 div .image {
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+}
+
+main .container .row .col-sl-12 div h5 {
+    font-family: "Edu TAS Beginner", sans-serif;
+    font-weight: lighter;
+    padding: 5px 20px;
+}
+
+main .container .row .col-sl-12 div .pin {
+    position: absolute;
+    top: -18px;
 }
