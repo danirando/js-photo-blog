@@ -1,0 +1,13 @@
+header div {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/wall.png);
+}
+
+header div h1 {
+    font-family: "Edu TAS Beginner", sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+}
