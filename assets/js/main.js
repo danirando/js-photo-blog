@@ -78,10 +78,13 @@ axios.get(uriApi).then((response) => {
       });
       cardEl[i].classList.add("d-none");
     });
+
+    // nascondo il pin all'hover del mouse sulla corrispetiva card
     cardEl.forEach((card, i) => {
       card.addEventListener("mouseenter", () => {
         const pinEl = document.querySelectorAll(".pin");
         pinEl[i].classList.add("d-none");
+        // rimostro il pin all'uscita del mouse dalla card
         card.addEventListener("mouseleave", () => {
           pinEl[i].classList.remove("d-none");
         });
