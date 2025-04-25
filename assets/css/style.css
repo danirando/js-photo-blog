@@ -49,7 +49,35 @@ main .container .row .col-sl-12 div h5 {
     padding: 5px 20px;
 }
 
+main .container .row .col-sl-12 div h6 {
+    font-family: "Sometype Mono", ‘monospace’;
+    ;
+}
+
 main .container .row .col-sl-12 div .pin {
     position: absolute;
     top: -18px;
+}
+
+main .container .row .col-sl-12 div:hover {
+    transform: rotate(45deg);
+}
+
+main .preview-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    gap: 30px;
+}
+
+main .preview-container img {
+    width: 60vh;
 }
